@@ -8,4 +8,6 @@ class WhereSample
         from num in numbers
         where num < 5 
         select num;
+    
+    var smallNumbers = numbers.Where (n => n < 5)
 }
